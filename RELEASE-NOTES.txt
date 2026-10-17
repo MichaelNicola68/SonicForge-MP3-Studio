@@ -1,0 +1,7 @@
+﻿SonicForge MP3 Studio 1.0.0-rc.1
+
+- Erster Release Candidate auf dem Weg zu Version 1.0.0.
+- Release-Build, Systemtest, Backup-Wiederherstellung und praktischer Endtest wurden vor der RC-Vorbereitung bestanden.
+- Zielplattform: win-x64.
+- Bereitstellung: selbstenthaltenes portables ZIP-Paket.
+- Bevorzugtes Archivprofil fuer eigene MP3-Aufnahmen: 320 kbit/s.

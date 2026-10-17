@@ -1,0 +1,9 @@
+THIRD-PARTY NOTICES - SonicForge MP3 Studio 1.0.0-rc.1
+
+Die folgenden Paketabhaengigkeiten wurden aus SonicForge.App.csproj ermittelt:
+- MetaBrainz.MusicBrainz.DiscId 5.3.0
+- NAudio 2.2.1
+- NAudio.Lame 2.1.0
+- TagLibSharp 2.3.0
+
+WICHTIG: Diese Inventarliste ersetzt keine Lizenzpruefung. Vor oeffentlicher Weitergabe muessen die Lizenztexte aller tatsaechlich mitgelieferten Komponenten und von FFmpeg kontrolliert und gegebenenfalls beigefuegt werden.

@@ -1,0 +1,7 @@
+﻿BEKANNTE EINSCHRAENKUNGEN 1.0.0-rc.1
+
+- Dieser Stand ist ein Release Candidate und noch nicht Version 1.0.0.
+- Das Paket besitzt noch keinen Installer und keine automatische Aktualisierung.
+- Aufnahmegeraete und Audiotreiber muessen unter Windows korrekt eingerichtet sein.
+- FFmpeg-Bereitstellung und Lizenzhinweise muessen vor einer oeffentlichen Weitergabe des Pakets abschliessend kontrolliert werden.
+- Drittanbieter-Lizenzen muessen anhand der tatsaechlich veroeffentlichten Abhaengigkeiten abschliessend geprueft werden.

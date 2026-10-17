@@ -1,0 +1,7 @@
+QUELLCODE
+
+Der korrespondierende Quellcode zu dieser Ausgabe wird zusammen mit dem Release als Datei
+SonicForge-MP3-Studio-1.0.0-Source.zip
+bereitgestellt.
+
+Lizenz: GNU General Public License Version 3 (GPLv3)

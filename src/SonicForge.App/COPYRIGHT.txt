@@ -1,0 +1,9 @@
+SonicForge MP3 Studio
+Copyright (C) 2026 SonicForge contributors
+
+Dieses Programm ist freie Software: Sie kÃ¶nnen es unter den Bedingungen der GNU General Public License, verÃ¶ffentlicht von der Free Software Foundation, Version 3 der Lizenz, weitergeben und/oder verÃ¤ndern.
+
+Dieses Programm wird in der Hoffnung bereitgestellt, dass es nÃ¼tzlich ist, jedoch OHNE JEDE GEWÃ„HRLEISTUNG; sogar ohne die stillschweigende GewÃ¤hrleistung der MARKTGÃ„NGIGKEIT oder EIGNUNG FÃœR EINEN BESTIMMTEN ZWECK. Einzelheiten stehen in der GNU General Public License.
+
+Eine vollstÃ¤ndige Kopie der Lizenz befindet sich in LICENSE.txt.
+Offizielle Lizenzseite: https://www.gnu.org/licenses/gpl-3.0.html

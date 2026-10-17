@@ -1,0 +1,40 @@
+﻿<Window x:Class="SonicForge.App.AutoRecordingWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="SonicForge Automatikaufnahme" Width="760" Height="680" WindowStartupLocation="CenterOwner" Background="#050B11" Foreground="White">
+<Window.Resources>
+<Style x:Key="AutoActionButtonStyle" TargetType="Button">
+<Setter Property="Foreground" Value="White"/>
+<Setter Property="Background" Value="#C82745"/>
+<Setter Property="BorderBrush" Value="#E34B67"/>
+<Setter Property="BorderThickness" Value="1"/>
+<Setter Property="Template">
+<Setter.Value>
+<ControlTemplate TargetType="Button">
+<Border x:Name="ButtonBorder" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="2" Padding="{TemplateBinding Padding}">
+<ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" TextElement.Foreground="{TemplateBinding Foreground}"/>
+</Border>
+<ControlTemplate.Triggers>
+<Trigger Property="IsEnabled" Value="False">
+<Setter TargetName="ButtonBorder" Property="Background" Value="#26343D"/>
+<Setter TargetName="ButtonBorder" Property="BorderBrush" Value="#405460"/>
+<Setter Property="Foreground" Value="#B8CBD4"/>
+</Trigger>
+<Trigger Property="IsMouseOver" Value="True">
+<Setter TargetName="ButtonBorder" Property="Background" Value="#E03858"/>
+</Trigger>
+</ControlTemplate.Triggers>
+</ControlTemplate>
+</Setter.Value>
+</Setter>
+</Style>
+</Window.Resources><Grid Margin="22"><Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+<StackPanel><TextBlock Text="AUTOMATISCHE MUSIKAUFNAHME" FontSize="25" FontWeight="Bold" Foreground="#18E5FF"/><TextBlock Text="Startet bei Musik, stoppt nach Stille und speichert MP3 mit 320 kbit/s." Foreground="#8FB6C8" Margin="0,5,0,16"/></StackPanel>
+<StackPanel Grid.Row="1"><TextBlock Text="Systemtonquelle"/><ComboBox x:Name="DeviceBox" Padding="8" Foreground="#071219" Margin="0,5"/></StackPanel>
+<Grid Grid.Row="2" Margin="0,12"><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+<StackPanel Margin="0,0,8,0"><TextBlock Text="Startschwelle (dB)"/><TextBox x:Name="StartDbBox" Text="-38" Padding="7"/></StackPanel>
+<StackPanel Grid.Column="1" Margin="8,0"><TextBlock Text="Stoppschwelle (dB)"/><TextBox x:Name="StopDbBox" Text="-45" Padding="7"/></StackPanel>
+<StackPanel Grid.Column="2" Margin="8,0,0,0"><TextBlock Text="Stille bis Stopp (Sek.)"/><TextBox x:Name="SilenceBox" Text="4" Padding="7"/></StackPanel></Grid>
+<Border Grid.Row="3" Background="#091923" BorderBrush="#245064" BorderThickness="1" CornerRadius="14" Padding="18"><StackPanel VerticalAlignment="Center"><TextBlock x:Name="StatusText" Text="Bereit" FontSize="23" Foreground="#59F2B5" HorizontalAlignment="Center" TextAlignment="Center"/><ProgressBar x:Name="Meter" Height="24" Maximum="1" Margin="0,24,0,8" Foreground="#18E5FF"/><TextBlock Text="Vorlaufpuffer: 1,5 Sekunden" Foreground="#8FB6C8" HorizontalAlignment="Center"/>
+<Separator Margin="0,14,0,8" Background="#245064"/>
+<TextBlock Text="In dieser Sitzung gespeichert" FontWeight="Bold" Foreground="#18E5FF"/>
+<ListBox x:Name="SessionList" Height="125" Margin="0,7,0,0" Background="#071219" Foreground="White" BorderBrush="#245064"/></StackPanel></Border>
+<DockPanel Grid.Row="4" Margin="0,16,0,0"><TextBlock x:Name="FolderText" VerticalAlignment="Center" Foreground="#8FB6C8"/><StackPanel Orientation="Horizontal" HorizontalAlignment="Right"><Button x:Name="StartButton" Content="Automatik starten" Click="Start_Click" Padding="16,10" Margin="5" Style="{StaticResource AutoActionButtonStyle}"/><Button x:Name="StopButton" Content="Beenden" Click="Stop_Click" Padding="16,10" Margin="5" Style="{StaticResource AutoActionButtonStyle}" IsEnabled="False"/></StackPanel></DockPanel>
+</Grid></Window>

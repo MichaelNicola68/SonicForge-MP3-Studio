@@ -1,0 +1,132 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "a4fef7f6a4438c7541c6b6fecb04ab536d7e9b4fbc7f7ed8a26484d0ac97c870",
+    "bytes": 50
+  },
+  {
+    "path": "CHANGELOG.md",
+    "sha256": "ae5f24f954f23615ee40884bbedd70871ea8c4df730701c6685e3e2168e2a108",
+    "bytes": 215
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "sha256": "adaa3ab43402dad90f7f3acb4b7c409dabd0f66efe6f33f261b20131cdf16fe7",
+    "bytes": 199
+  },
+  {
+    "path": "Directory.Build.props",
+    "sha256": "1e6ab97c31ca532ac6b547f72291aedb944dd3a48d0782b640ce886c6a198945",
+    "bytes": 464
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "4c02bcb99aafc3491d7d49dd8e8cbbd6eab49079e20b67ce95f13bd6736f52c9",
+    "bytes": 740
+  },
+  {
+    "path": "README.md",
+    "sha256": "bbdc9375bb7f29b63f8dcdc00f90d54c66830dc31e8b27d72c3089ce46aae992",
+    "bytes": 1271
+  },
+  {
+    "path": "SECURITY.md",
+    "sha256": "0b24417dc6a7291dc2c6106024af0d1af44713199881c61759623ccf90cff6ee",
+    "bytes": 258
+  },
+  {
+    "path": "SonicForge.sln",
+    "sha256": "ec5ae35f3e97d49fc04ae947534398a2a8050c33e4e7317dcabfea5c79290f01",
+    "bytes": 1905
+  },
+  {
+    "path": "THIRD-PARTY-NOTICES.md",
+    "sha256": "40e19b9daa75728a1bf9452d9fa11879945a1df448dadca2def7c587a379cc16",
+    "bytes": 203
+  },
+  {
+    "path": "build.ps1",
+    "sha256": "c075e57fdeb62de4a732d8bb6f834c07706c1ad995a0708b4cf8cfa590df3e91",
+    "bytes": 182
+  },
+  {
+    "path": "docs/ARCHITECTURE.md",
+    "sha256": "ae3747ff6f20ad6a37ddb11b510681d0bf130615399e0cfabad3f122e6efe641",
+    "bytes": 335
+  },
+  {
+    "path": "docs/ROADMAP.md",
+    "sha256": "0b76f1a6e3b21c7a855713466eaddca4c80ec902040680450067c1b89873216b",
+    "bytes": 436
+  },
+  {
+    "path": "global.json",
+    "sha256": "50220a9df151434707c82d26bdf92da7a49e9ba1786948a0784c7fc6eac605bc",
+    "bytes": 60
+  },
+  {
+    "path": "publish-win-x64.ps1",
+    "sha256": "ed0989526422ad5a66c3244b2bd5be5e4517332697e5bfce211daa80e7894cb0",
+    "bytes": 302
+  },
+  {
+    "path": "src/SonicForge.App/App.xaml",
+    "sha256": "34a28e0f98354358bde88edad25f2a194e8139e7190f482bf64768f665758fa1",
+    "bytes": 698
+  },
+  {
+    "path": "src/SonicForge.App/App.xaml.cs",
+    "sha256": "c5ac6894b2e36d8a455c00dd86dc781a68b6a662c5cff7ef3d9a899b8b4ed1c6",
+    "bytes": 91
+  },
+  {
+    "path": "src/SonicForge.App/MainWindow.xaml",
+    "sha256": "46f9509cbd987ebd2bf2342907a85c48832b8173db5a15a68e00197d79ee7caf",
+    "bytes": 3640
+  },
+  {
+    "path": "src/SonicForge.App/MainWindow.xaml.cs",
+    "sha256": "ccd28e58e90450683bf747619ccf1908e6856b9eee7246ba6f4c956927b96d32",
+    "bytes": 2676
+  },
+  {
+    "path": "src/SonicForge.App/SonicForge.App.csproj",
+    "sha256": "dffb872e60d3c22cdb584f69d713c41e3781d7771676550e06a0bdc3824d7fd1",
+    "bytes": 513
+  },
+  {
+    "path": "src/SonicForge.App/app.manifest",
+    "sha256": "37cb92eb216ca87a79d91fa7d759e9905865e4391006d58e67a6eebc053e5aca",
+    "bytes": 548
+  },
+  {
+    "path": "src/SonicForge.Core/Models/AudioTrack.cs",
+    "sha256": "cf4cf10d6cf83d35d5f263110bc97ce0a1a524efe4c010cd686b7bc836668b92",
+    "bytes": 518
+  },
+  {
+    "path": "src/SonicForge.Core/Services/ITrackScanner.cs",
+    "sha256": "6f0c2019e8d158a55789d45301574b00afe0c0357f6eac6356b98db7d16e9f31",
+    "bytes": 165
+  },
+  {
+    "path": "src/SonicForge.Core/SonicForge.Core.csproj",
+    "sha256": "732c1a02f980508e770a6eaae3dd61d5a2585081261169f853270304564b572e",
+    "bytes": 166
+  },
+  {
+    "path": "src/SonicForge.Library/SonicForge.Library.csproj",
+    "sha256": "533d4786bd841bfc7a149ab350162f8d2608e34ba1f43442f27b07107fc64bd9",
+    "bytes": 217
+  },
+  {
+    "path": "src/SonicForge.Library/TrackScanner.cs",
+    "sha256": "0b82f25630ffea1fdd22944eb5346c85caa380a0870cc1170d2ea4971f5c6353",
+    "bytes": 673
+  },
+  {
+    "path": "tests/SonicForge.Core.Tests/README.md",
+    "sha256": "903af71eb293def52a3c80cf106283ec70e5d25d40ed5cb7276742aeed3c23e4",
+    "bytes": 141
+  }
+]

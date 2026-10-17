@@ -1,0 +1,13 @@
+﻿SONICFORGE MP3 STUDIO 1.0.0-rc.1 - INSTALLATION
+
+1. Release-ZIP vollstaendig entpacken.
+2. Den entpackten Hauptordner oeffnen.
+3. SonicForge.App.exe starten.
+
+Das win-x64-Paket wird selbstenthalten erzeugt. Es ist fuer 64-Bit-Windows vorgesehen.
+
+Deinstallation:
+Den entpackten Programmordner entfernen. Persoenliche Aufnahmen vorher sichern.
+
+Entwicklungsstart:
+dotnet run --project "G:\SonicForge-MP3-Studio-0.1.0-alpha\src\SonicForge.App\SonicForge.App.csproj" -c Release
