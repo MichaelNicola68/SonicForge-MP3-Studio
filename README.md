@@ -13,7 +13,7 @@ SonicForge MP3 Studio ist ein Open-Source-Musikstudio fÃ¼r Windows.
 - Musikbibliothek und integrierte Wiedergabe
 - Automatikmodus fÃ¼r lÃ¤ngere Aufnahmeserien
 
-## AufnahmequalitÃ¤t
+## Aufnahmequalität
 
 FÃ¼r hochwertige MP3-Aufnahmen steht das Archivprofil mit 320 kbit/s zur VerfÃ¼gung.
 
@@ -23,7 +23,7 @@ Die deutschsprachige Bedienungsanleitung wird bei den GitHub-Releases als PDF be
 
 ## Lizenz
 
-SonicForge MP3 Studio wird unter der GNU General Public License Version 3 oder hÃ¶her verÃ¶ffentlicht (`GPL-3.0-or-later`). Der vollstÃ¤ndige Lizenztext befindet sich in `LICENSE.txt`.
+SonicForge MP3 Studio wird unter der GNU General Public License Version 3 oder höher veröffentlicht (`GPL-3.0-or-later`). Der vollständige Lizenztext befindet sich in `LICENSE.txt`.
 
 ## Projekt
 
@@ -34,3 +34,7 @@ Technische Umsetzung und EntwicklungsunterstÃ¼tzung: Microsoft 365 Copilot
 ## Hinweis
 
 Beim Aufnehmen und Weitergeben von Musik, Streams und Radiosendungen sind geltende Rechte, Nutzungsbedingungen und gesetzliche Vorgaben zu beachten.
+
+<img width="1366" height="1392" alt="0002" src="https://github.com/user-attachments/assets/e4a37ac3-6fd9-4553-a356-640bddb8e6e5" />
+
+<img width="1026" height="713" alt="0001" src="https://github.com/user-attachments/assets/5dbcfc78-522a-4a7d-b169-f61f9abfa170" />
