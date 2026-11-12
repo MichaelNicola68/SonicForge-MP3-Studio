@@ -1,21 +1,21 @@
 ﻿# SonicForge MP3 Studio
 
-SonicForge MP3 Studio ist ein Open-Source-Musikstudio fÃ¼r Windows.
+SonicForge MP3 Studio ist ein Open-Source-Musikstudio für Windows.
 
 ## Hauptfunktionen
 
 - Audio-CDs in MP3 umwandeln
-- Schallplatten und Kassetten Ã¼ber Line-In digitalisieren
+- Schallplatten und Kassetten über Line-In digitalisieren
 - Streaming und Systemton aufnehmen
 - Mikrofone und Instrumente aufnehmen
 - Internetradio wiedergeben und aufnehmen
 - Metadaten und Cover verwalten
 - Musikbibliothek und integrierte Wiedergabe
-- Automatikmodus fÃ¼r lÃ¤ngere Aufnahmeserien
+- Automatikmodus für längere Aufnahmeserien
 
 ## Aufnahmequalität
 
-FÃ¼r hochwertige MP3-Aufnahmen steht das Archivprofil mit 320 kbit/s zur VerfÃ¼gung.
+Für hochwertige MP3-Aufnahmen steht das Archivprofil mit 320 kbit/s zur Verfügung.
 
 ## Dokumentation
 
@@ -29,7 +29,8 @@ SonicForge MP3 Studio wird unter der GNU General Public License Version 3 oder h
 
 Projektidee, Konzeption und Projektleitung: Michael Nicola  
 Kontakt: NicolaMichael@gmx.de  
-Technische Umsetzung und EntwicklungsunterstÃ¼tzung: Microsoft 365 Copilot
+Technische Umsetzung und Entwicklungsunterstützung: Microsoft 365 Copilot
+www.saaross.de
 
 ## Hinweis
 
