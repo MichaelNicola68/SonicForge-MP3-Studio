@@ -30,6 +30,7 @@ SonicForge MP3 Studio wird unter der GNU General Public License Version 3 oder h
 Projektidee, Konzeption und Projektleitung: Michael Nicola  
 Kontakt: NicolaMichael@gmx.de  
 Technische Umsetzung und Entwicklungsunterstützung: Microsoft 365 Copilot
+
 www.saaross.de
 
 ## Hinweis
